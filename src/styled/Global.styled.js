@@ -23,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
     p {
         line-height: 1.6;
+        font-family: 'Proxima Nova';
     }
 
     a {

@@ -7,19 +7,19 @@ import BenguiatNormal from "../assets/fonts/benguiat_normal-webfont.woff";
 
 export const FontFace = `
     @font-face {
-        fon-family: 'Proxima Nova';
+        font-family: 'Proxima Nova';
         src: url(${ProximaNova2}) format('woff2'),
         url(${ProximaNova}) format('woff')
     }
 
     @font-face {
-        fon-family: 'Benguiat';
+        font-family: 'Benguiat';
         src: url(${Benguiat2}) format('woff2'),
         url(${Benguiat}) format('woff')
     }
 
     @font-face {
-        fon-family: 'Benguiat Normal';
+        font-family: 'Benguiat Normal';
         src: url(${BenguiatNormal2}) format('woff2'),
         url(${BenguiatNormal}) format('woff')
     }

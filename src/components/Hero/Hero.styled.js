@@ -9,7 +9,7 @@ export const HeroWrapper = styled.div`
 export const HeroContainer = styled.div`
   width: 100%;
   height: 94vh;
-  padding: 6rem 0 0;
+  padding: 6.6rem 0 0;
   text-align: center;
 `;
 
@@ -30,11 +30,11 @@ export const Music = styled.div`
 export const Title = styled.h2`
   letter-spacing: ${({ letterSpacing }) => letterSpacing}px;
   white-space: nowrap;
+  transform: scaleY(3.6);
+  transform-origin: top;
 
   span {
     display: inline-block;
-    transform: scaleY(3.6);
-    transform-origin: top;
   }
 `;
 
@@ -50,7 +50,7 @@ export const ImageContainer = styled.div`
   position: relative;
   overflow: hidden;
   width: 100%;
-  top: -2.5rem;
+  top: -2.25rem;
 
   img {
     display: inline-block;
