@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export const Container = styled.div`
   width: 85%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 `;
@@ -39,6 +39,18 @@ export const PageHeader = styled.h2`
   color: ${({ theme }) => theme.color.primary};
   text-transform: uppercase;
   text-align: center;
-  font-size: 3rem;
+  font-size: clamp(2.5rem, 2.85vw + 1rem, 4rem);
   font-family: "Benguiat";
+
+  @media (min-width: 768px) {
+    margin-top: 9.75rem;
+    padding: 0 3.5rem;
+  }
+`;
+
+export const CardGroup = styled.div`
+  width: 100%;
+  display: grid;
+  gap: 3rem 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 `;

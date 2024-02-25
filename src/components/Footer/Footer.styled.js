@@ -20,7 +20,7 @@ export const Socials = styled(Link)`
 `;
 
 export const Copyright = styled.div`
-  margin: 4.5rem 0 2rem;
+  margin: 2rem 0;
   display: flex;
   gap: 0.5rem;
   justify-content: center;
