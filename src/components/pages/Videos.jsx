@@ -1,3 +1,5 @@
+import useDocumentTitle from "../../useDocumentTitle";
+
 import {
   CardGroup,
   PageHeader,
@@ -9,6 +11,8 @@ import thumbnail1 from "../../assets/images/unsplash_CD6pT9Uzx1Y-1.png";
 import thumbnail2 from "../../assets/images/unsplash_CD6pT9Uzx1Y.png";
 
 const Videos = () => {
+  useDocumentTitle("Videos");
+
   const data = [
     {
       title: "Cest la vie (Official Video)",

@@ -13,7 +13,15 @@ const About = () => {
 
       <AboutSection>
         <HeaderContainer>
-          <AboutHeader>About Jakore</AboutHeader>
+          <div>
+            <AboutHeader>About Jakore</AboutHeader>
+          </div>
+          <div>
+            <AboutHeader>About Jakore</AboutHeader>
+          </div>
+          <div>
+            <AboutHeader>About Jakore</AboutHeader>
+          </div>
         </HeaderContainer>
 
         <TextGroup>

@@ -1,3 +1,5 @@
+import useDocumentTitle from "../../useDocumentTitle";
+
 import {
   CardGroup,
   PageHeader,
@@ -8,6 +10,8 @@ import MusicCard from "../MusicCard/MusicCard";
 import Image1 from "../../assets/images/Everything_Above.png";
 
 const Music = () => {
+  useDocumentTitle("Music");
+
   const data = [
     {
       title: "Everything Above",
