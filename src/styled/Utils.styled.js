@@ -12,7 +12,7 @@ export const StyledLink = styled(NavLink)`
   font-family: "Proxima Nova";
   text-transform: uppercase;
   text-decoration: underline;
-  font-size: clamp(1rem, 2vw + 0.15rem, 1.5rem);
+  font-size: clamp(1rem, 2vw + 0.3rem, 1.5rem);
 
   &.active {
     color: ${({ theme }) => theme.color.dark_text};

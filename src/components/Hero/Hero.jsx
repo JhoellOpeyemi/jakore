@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import {
   Artist,
   HeroContainer,
@@ -7,11 +9,13 @@ import {
   Subtitle,
 } from "./Hero.styled";
 
-import Image from "../../assets/images/EA_cover_art.png";
+import Image from "../../assets/images/Jk_nobg.png";
 import StretchText from "./StretchText";
 import { StyledLink } from "../../styled/Utils.styled";
 
 const Hero = () => {
+  const [letterSpacing, setLetterSpacing] = useState(0);
+
   return (
     <HeroWrapper>
       <HeroContainer>
@@ -22,8 +26,12 @@ const Hero = () => {
         </ImageContainer>
 
         <Music>
-          <StretchText words={"Everything Above"} />
-          <Subtitle>The ep</Subtitle>
+          <StretchText
+            letterSpacing={letterSpacing}
+            setLetterSpacing={setLetterSpacing}
+            words={"Everything Above"}
+          />
+          <Subtitle letterSpacing={letterSpacing}>The ep</Subtitle>
         </Music>
       </HeroContainer>
 

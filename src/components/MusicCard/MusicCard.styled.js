@@ -6,6 +6,7 @@ export const CardContainer = styled.div`
   gap: 0.85rem;
 
   a {
+    width: max-content;
     color: ${({ theme }) => theme.color.dark_text};
   }
 `;
